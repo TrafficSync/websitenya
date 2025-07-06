@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrafficSync Junctions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #013220;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .location {
+      color: #d42c2c;
+      font-size: 14px;
+      margin-top: 0.3rem;
+    }
+    .container {
+      padding: 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .junction-card {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .junction-info {
+      line-height: 1.6;
+    }
+    .btn {
+      background: #013220;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background: #025830;
+    }
+    iframe {
+      width: 100%;
+      height: 800px;
+      border: none;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🚦 TRAFFICSYNC</h1>
+    <p class="location">📍 Depok, West Java</p>
+  </header>
+
+  <div class="container">
+    <div class="junction-card">
+      <div class="junction-info">
+        <strong>Junctions 1 - Ir. H. Juanda</strong><br>
+        Status: Clear<br>
+        Vehicles per hour: 1.320<br>
+        Emergency Responders: None<br>
+        Time Estimation: 30s
+      </div>
+      <a class="btn" href="dashboard.html">View Reports</a>
+    </div>
+
+    <div class="junction-card">
+      <div class="junction-info">
+        <strong>Junctions 2 - Margonda</strong><br>
+        Status: Clear<br>
+        Vehicles per hour: 2.480<br>
+        Emergency Responders: Fire Truck<br>
+        Time Estimation: 30s
+      </div>
+      <a class="btn" href="dashboard.html">View Reports</a>
+    </div>
+
+    <div class="junction-card">
+      <div class="junction-info">
+        <strong>Junctions 3 - Ramanda</strong><br>
+        Status: Clear<br>
+        Vehicles per hour: 3.420<br>
+        Emergency Responders: Ambulance<br>
+        Time Estimation: 30s
+      </div>
+      <a class="btn" href="dashboard.html">View Reports</a>
+    </div>
+
+    <div class="junction-card">
+      <div class="junction-info">
+        <strong>Junctions 4 - RTM</strong><br>
+        Status: Clear<br>
+        Vehicles per hour: 1.520<br>
+        Emergency Responders: None<br>
+        Time Estimation: 30s
+      </div>
+      <a class="btn" href="dashboard.html">View Reports</a>
+    </div>
+
+    <div class="junction-card">
+      <div class="junction-info">
+        <strong>Junctions 5 - Tanah Baru</strong><br>
+        Status: Clear<br>
+        Vehicles per hour: 2.100<br>
+        Emergency Responders: None<br>
+        Time Estimation: 30s
+      </div>
+      <a class="btn" href="dashboard.html">View Reports</a>
+    </div>
+  </div>
+</body>
+</html>
