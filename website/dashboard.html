@@ -2,9 +2,62 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>TrafficSync Dashboard</title>
+  <title>TrafficSync Dashboard Widget</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* agar widget berada di tengah */
+      background-color: #f0f0f0;
+    }
+    .widget-frame {
+      width: 600px; /* atur lebar widget */
+      height: 500px; /* atur tinggi widget */
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+  </style>
 </head>
-<body style="margin: 0; padding: 0;">
-  <iframe src="http://localhost:8501" width="100%" height="1000px" style="border: none;"></iframe>
+<body>
+  <div class="widget-frame">
+    <iframe src="http://localhost:8501" width="100%" height="100%" style="border: none;"></iframe>
+  </div>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TrafficSync Widget</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+    .widget-frame {
+      width: 600px;
+      height: 500px;
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <div class="widget-frame">
+    <iframe src="http://localhost:8503" width="100%" height="100%" style="border: none;"></iframe>
+  </div>
+</body>
+</html>
+
